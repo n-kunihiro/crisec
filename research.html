@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>研究テーマ：筑波大学暗号理論研究室</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://kit.fontawesome.com/206b1408a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">暗号理論研究室</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="./research.html">研究テーマ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      
+      <br>
+
+        <h1 class="page_title">研究テーマ</h1>
+
+        <br>
+
+        <h2>暗号技術の安全性評価 </h2>
+        <br>
+        <h3>数学理論，アルゴリズム理論に基づく暗号方式の安全性評価</h3>
+        <p>安心して暗号技術を利用するためには，使用する暗号が本当に安全であるかを徹底的に検証する必要があります．格子簡約アルゴリズム，誤り訂正符号などの理論を用いて，暗号の安全性評価を行います．</p>
+        <h4> 格子簡約アルゴリズムに利用した暗号の安全性評価</h4>
+        <p>RSA暗号を利用する際に，復号，署名生成を効率的に行うため，小さい秘密鍵を用いることがあります．どの程度小さくした場合に安全性が損なわれるかの評価が重要となります．現実的に起こりうる様々な状況下での安全性評価を行います．主に，LLLアルゴリズムなどの格子簡約アルゴリズムに利用することにより，安全性解析を行っています．</p>
+        <h4> 秘密鍵の部分情報が漏洩したときの安全性評価</h4>
+        <p>実装の不備や物理的な観測を行うことにより，理論的には安全である暗号方式が解読されてしまう状況があります．例えば，RSA暗号の秘密鍵が部分的に得られるもしくはエラー付きながらも得られた時に，秘密鍵の冗長性を利用することにより，鍵全体を復元できることができます．秘密鍵に関するどの程度の情報が得られた時に安全性が損なわれるかの評価が重要になります．安全性評価には，誤り訂正符号の理論や計算量理論や数論アルゴリズムを道具として利用します．理論的な評価だけでなく，実験により安全性を評価します．</p>
+
+        <hr class="line">
+
+        <h3>量子計算機を用いた安全性評価</h3>
+
+        <p>大規模な量子計算機が実現すると，Shorのアルゴリズムにより，RSA暗号や楕円曲線暗号などの現代広く利用されている暗号方式が解読されてしまうことが知られています．今現在実現されている，もしくは近い将来実現する量子計算機は，様々な物理的な制約（ノイズが大きい，使える量子ビットが少ない，量子ビットの接続性が低いなど）があります．これらの非常に制限された環境下で，素因数分解や楕円離散対数問題を解く最適な回路設計を行い，安全性の精密な理解を目指します．さらに，共通鍵暗号に対する安全性評価も目指します．</p>
+ 
+        <hr class="line">
+
+        <h2>暗号方式の提案</h2>
+        <br>
+        <h4> 耐量子暗号を代表とする次世代暗号の提案</h4>
+        <p>量子計算機実現後も，安全に暗号技術が使えるよう，量子計算機に耐性のある暗号方式（耐量子計算機暗号）の提案を目指します．現在，有望視されているLearning With Error (LWE)問題の困難さに安全性の根拠を置く新しい格子暗号の提案やその安全性評価，符号ベース暗号，同種写像に基づく暗号など，次世代暗号の提案を目指します．</p>
+        <h4> 高機能な暗号方式，暗号プロトコルの提案</h4>
+        <p>暗号技術が広く使われるようになると，単にデータの秘匿だけでなく，暗号化したままデータ処理を行う高機能暗号が必要となります．例えば，暗号化したままデータの検索が可能な暗号（検索可能暗号）や加算・乗算が可能な準同型暗号，関数型暗号などが代表例です．安全性評価をふまえた上で，高機能暗号方式の提案を行うとともに，高機能暗号を組み合わせことにより，社会的要請を満足する実用的な暗号プロトコルの提案も行います．さらに，その社会応用にも取り組みます．新しい方式の提案だけでなく，現在，実社会で利用されている方式のできるだけ正確な安全性評価にもチャレンジします．</p>
+        
+      </div>
+    </div>
+</div>
+
+<footer>
+  <div class="container">
+    <hr class="line">
+    <span class="text-muted">Copyright (C) 2020 暗号理論研究室 All Rights Reserved.</span>
+  </div>
+</footer>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  
+</body>
+</html>
